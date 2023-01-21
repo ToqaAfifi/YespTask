@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+    font-weight: 500;
+}
+
+.list {
+	display: flex;
+	gap: 5rem;
+    list-style-type: none;
+    li {
+        text-decoration: none;
+        a {
+            text-decoration: none;
+            color: white;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+       
+    }
+    li:last-child {
+        a {
+            text-decoration: none;
+            color: red;
+        }
+    }
+}

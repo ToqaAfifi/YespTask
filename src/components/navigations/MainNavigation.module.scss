@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+    padding: 0.5rem 5%;
+    background-color: white;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+    justify-content: center;
+}
+
+.list{
+	display: flex;
+	gap: 5rem;
+	list-style-type: none;
+	margin-left: 50%;
+    li {
+        text-decoration: none;
+		a {
+			text-decoration: none;
+			color: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&:hover {
+				background-color: rgb(218, 216, 216);
+			}
+		}
+	}
+}

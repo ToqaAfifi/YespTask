@@ -1,0 +1,35 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--secondary-color);
+	font-weight: 500;
+	padding: 0 5%;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	li {
+		display: flex;
+	}
+}
+
+.list{
+	display: flex;
+	gap: 5rem;
+	list-style-type: none;
+	margin-left: 45%;
+    li {
+        text-decoration: none;
+		a {
+			text-decoration: none;
+			color: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&:hover {
+				background-color: rgb(219, 199, 16);
+			}
+		}
+	}
+}
