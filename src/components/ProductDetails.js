@@ -103,7 +103,7 @@ class ProductDetails extends React.Component {
 
                             <div className={classes.quantity}>
 
-                                <IconButton style={{ backgroundColor: "var(--secondary-color)", color: 'black', position: 'absolute', margin: "3px 170px" }} onClick={(e) => this.addQuantityHandler(e)}>
+                                <IconButton style={{ backgroundColor: "var(--secondary-color)", color: 'black', position: 'absolute', margin: "3px 144px" }} onClick={(e) => this.addQuantityHandler(e)}>
                                     <AiOutlinePlus size={20} />
                                 </IconButton>
 

@@ -15,7 +15,7 @@ const Footer = () => {
             <div className={classes.container}>
                 <h3>Subscribe to our newsletter</h3>
                 <form className={classes.search}>
-                    <SecondaryButton styles={{ position: 'absolute', margin: "1px 0px 0px 18rem", borderRadius: '35px', backgroundColor: "var(--secondary-color)", color: 'black', fontSize: "12px" }}>
+                    <SecondaryButton styles={{ position: 'absolute', margin: "0px 0px 0px 12rem", borderRadius: '35px', backgroundColor: "var(--secondary-color)", color: 'black', fontSize: "12px" }}>
                         Subscribe
                         <TbSend size={18} />
                     </SecondaryButton>

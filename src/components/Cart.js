@@ -20,8 +20,8 @@ const Cart = () => {
                     <h2 className={classes.total}>Total: {total} LE</h2>
 
                     <div className={classes.buttons}>
-                        <SecondaryButton styles={{ borderRadius: '35px', backgroundColor: "var(--secondary-color)", color: 'black', fontSize: "15px", margin: "0 2%" }}>Review Cart</SecondaryButton>
-                        <PrimaryButton styles={{ borderRadius: '35px', backgroundColor: "var(--primary-color)", color: 'white', fontSize: "15px", margin: "0 2%" }}>Complete Checkout</PrimaryButton>
+                        <SecondaryButton styles={{ borderRadius: '35px', backgroundColor: "var(--secondary-color)", color: 'black', fontSize: "13px", margin: "0 2%" }}>Review Cart</SecondaryButton>
+                        <PrimaryButton styles={{ borderRadius: '35px', backgroundColor: "var(--primary-color)", color: 'white', fontSize: "13px", margin: "0 2%" }}>Complete Checkout</PrimaryButton>
                     </div>
                 </div>
             )}

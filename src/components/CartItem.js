@@ -12,7 +12,7 @@ const CartItem = ({ id, title, quantity, price, thumbnail, removeProduct }) => {
                 <p className={classes.quantity}>Quantity: {quantity}</p>
                 <div className={classes.price}>
                     {price} LE
-                    <SecondaryButton styles={{ borderRadius: '35px', backgroundColor: "var(--secondary-color)", color: 'black', fontSize: "15px", margin: "0 2%" }} onClick={() => removeProduct(id)}>Remove</SecondaryButton>
+                    <SecondaryButton styles={{ borderRadius: '35px', backgroundColor: "var(--secondary-color)", color: 'black', fontSize: "11px", margin: "0 2%" }} onClick={() => removeProduct(id)}>Remove</SecondaryButton>
                 </div>
             </div>
         </div>
